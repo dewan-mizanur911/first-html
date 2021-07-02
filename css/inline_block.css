@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(207, 204, 204);
+}
+.wrapper{
+    width: 75%;
+    background-color: white;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+.block-paragraph{
+    outline: 2px solid red;
+}
+.link{
+    text-decoration: none;
+    color: purple;
+    border: 1px solid;
+}
+h2,h3{
+    text-align: center;
+}
+.btn{
+    color: white;
+    background-color: teal;
+    height: 70px;
+    width: 200px;
+    border: none;
+}
+.btn:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.btn_block{
+    display: block;
+    margin-bottom: 5px;
+}

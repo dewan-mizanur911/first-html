@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block/inline/inline-block</title>
+    <link rel="stylesheet" href="css/inline_block.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Difference between Inline,Block,Inline-block</h1>
+        <h3>Inline anchor tag in block-type paragraph tag. We can't margin vertically in inline elements.</h2>
+        <p class="block-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <a href="" class="link">This is a testing button</a> temporibus dignissimos placeat veritatis qui minus, totam, a, officia tenetur aperiam dolore excepturi provident minima eaque. Totam error quia distinctio praesentium!</p>
+        <p class="block-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus temporibus dignissimos <a href="" class="link">This is a testing button</a>placeat veritatis qui minus, totam, a, officia tenetur aperiam dolore excepturi provident minima eaque. Totam error quia distinctio praesentium!</p>
+        <p class="block-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus temporibus dignissimos placeat veritatis qui minus, totam, a, officia tenetur aperiam dolore excepturi provident minima eaque. Totam error quia <a href="" class="link">This is a testing button</a>distinctio praesentium!</p>
+        <h2>These are Inline-block buttons</h2>
+        <h3>Inline-block buttons grabbed their mentioned height and width</h3>
+        <button class="btn">Click me</button>
+        <button class="btn">Don't click me</button>
+
+        <h2>These are block buttons</h2>
+        <h3>Block type buttons grabbed mentioned height and 100% of width</h3>
+        <button class="btn btn_block">Click me</button>
+        <button class="btn btn_block">Don't click me</button>
+    </div>
+</body>
+</html>
